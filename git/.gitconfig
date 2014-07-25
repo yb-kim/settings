@@ -1,0 +1,18 @@
+[user]
+    name = Youngbin Kim
+    email = yb.kim@yonsei.ac.kr
+
+[color]
+    ui = True
+    diff = True
+
+[alias]
+    lg = log --decorate=short
+    co = checkout
+    pick = cherry-pick
+    la = log --graph --oneline --date-order --decorate --color --all
+
+[core]
+    editor = vim
+[push]
+	default = simple
