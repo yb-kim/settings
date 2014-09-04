@@ -20,3 +20,8 @@ set fencs=utf-8
 
 autocmd BufReadPre SConstruct set filetype=python
 autocmd BufReadPre SConscript set filetype=python
+
+" ctags
+set tags=./tags
+map <C-\> :botright vs <CR>:exec("tj ".expand("<cword>"))<CR>
+map <leader><C-\> :tab split<CR>:exec("tj ".expand("<cword>"))<CR>
