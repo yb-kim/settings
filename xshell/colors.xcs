@@ -1,0 +1,23 @@
+[solarized dark - ybkim]
+text(bold)=93a1a1
+magenta(bold)=6c71c4
+text=a2afb0
+white(bold)=fdf6e3
+green=859900
+red(bold)=cb4b16
+green(bold)=70bf51
+black(bold)=002b36
+red=dc322f
+blue=268bd2
+black=073642
+blue(bold)=2f66d9
+yellow(bold)=657b83
+cyan(bold)=73c8ce
+yellow=b58900
+magenta=d33682
+background=00262f
+white=eee8d5
+cyan=2aa198
+[Names]
+count=1
+name0=solarized dark - ybkim
