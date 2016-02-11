@@ -1,12 +1,12 @@
 cp .vimrc ~/
 
-echo "Check if pathogen installed..."
+echo "Check if pathogen is installed..."
 
 PATHOGEN_PATH=.vim/autoload/pathogen.vim
 if [ -e ~/$PATHOGEN_PATH ]; then
-    echo "Pathogen already installed"
+    echo "Pathogen is already installed"
 else
-    echo "Pathogen not found. Install pathogen..."
+    echo "Pathogen is not found. Install pathogen..."
     mkdir -p ~/.vim/autoload ~/.vim/bundle && \
     cp $PATHOGEN_PATH ~/$PATHOGEN_PATH
 fi
